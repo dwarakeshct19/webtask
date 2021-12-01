@@ -1,0 +1,14 @@
+table {
+    	border: 2px solid indigo; 
+      	border-collapse:collapse;
+	text-align:right;
+}
+td, th {
+  	border: 2px solid indigo;
+}
+thead {
+        background-color: blue;
+}
+tr:nth-child(even){
+        background-color: lightblue;
+}
